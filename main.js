@@ -73,3 +73,13 @@ if (alisher > xarajatlar) {
 		`sizda ${nMoney}cha pul yetishmayapti. Sizning pulingiz yetmaydi !`
 	);
 }
+
+// Vazifa alamilyot darsi uchun
+
+var name = prompt("Ismingizni kiritng :");
+var surname = prompt("Familiyangizni kiritng :");
+var tomomlaganJoyi = prompt("Qaysi oliy o'quv yurtlarini bitirgansiz :");
+var ishTajribasi = prompt("Qayerda ishlagansiz(-yapsz?) :");
+var languages = prompt("Qaysi tillarni bilasiz :");
+
+console.log(name, surname, ishTajribasi, languages, tomomlaganJoyi);
